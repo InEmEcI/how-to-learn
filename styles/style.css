@@ -8,6 +8,8 @@
 
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+
+
 }
 
 .header {
@@ -164,11 +166,9 @@
   justify-content: space-between;
   margin: 0 auto;
   margin-bottom: 100px;
-  /* border: 4px solid red; */
 }
 
 .table__cell {
-  /* border: #2f80ed solid 2px; */
   width: 250px;
   line-height: 1.15;
   font-size: 16px;
@@ -194,11 +194,43 @@
 
 /* --------Секция, блок feynman------------- */
 
-.feynman_title{
+.feynman{
+  min-height: 890px;
+  position: relative;
+  background-image: url(/images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 867px 637px;
+  box-sizing: border-box;
+  padding-top: 100px;
+  background-color: #f2f2f2;
+}
 
+.feynman_title{
+width: 648px;
+margin: 0 auto;
+line-height: 1.15;
+font-size: 120px;
+font-weight: 600;
+text-align: center;
 }
 
 .feynman_subtitle{
-
+line-height: 51px;
+font-size: 36px;
+font-weight: normal;
+text-align: center;
+margin-top: 70px;
 }
+
+.feynman_link{
+position: absolute;
+top: 50%;
+right: 48px;
+line-height: 51px;
+font-size: 36px;
+font-weight: normal;
+color: #2f80ed;
+}
+
 /* ----------------------------------------- */
