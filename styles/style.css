@@ -230,8 +230,10 @@
 /* и элемента с модификатором вида ключ-значение */
 
 .kaufman {
+  position: relative;
   background-color: #000000;
   color: #ffffff;
+  z-index: -1;
 }
 
 .digits__title_theme_dark {
@@ -250,6 +252,7 @@
   width: 200px;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1;
 }
 
 .table__theme_dark {
@@ -277,11 +280,17 @@
   position: absolute;
   overflow: hidden;
   background-image: url(/images/kaufman-triangle.svg);
-  /* background-position: 210px; */
-  width: 877px;
-  height: 877px;
-  left: 900px;
-  /* top: 100px; */
+  /* background-repeat: no-repeat; */
+  /* background-position-x: 210px; */
+  /* background-position: auto;  */
+  width: 577px;
+  height: 577px;
+  /* left: 900px; */
+  z-index: 0;
+  top: 0;
+  /* bottom: 0; */
+  /* right: -110px; */
+  border: 2px solid blue;
 }
 
 /* ----------------------------------------- */
