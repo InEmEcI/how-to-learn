@@ -250,6 +250,7 @@
   width: 200px;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1;
 }
 
 .table__theme_dark {
@@ -277,11 +278,10 @@
   position: absolute;
   overflow: hidden;
   background-image: url(/images/kaufman-triangle.svg);
-  /* background-position: 210px; */
   width: 877px;
   height: 877px;
-  left: 900px;
-  /* top: 100px; */
+  background-position: 0 150%;
+  z-index: 0;
 }
 
 /* ----------------------------------------- */
