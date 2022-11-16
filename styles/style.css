@@ -58,6 +58,8 @@
 }
 
 .header__link{
+  color: #2f80ed;
+  list-style-type: none;
   text-decoration: none;
 }
 
