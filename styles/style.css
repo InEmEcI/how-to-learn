@@ -98,7 +98,7 @@
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
-  /* margin-top: 100px; */
+  margin-bottom: 100px;
 }
 
 /* ------------------------------- */
@@ -110,7 +110,6 @@
   font-weight: normal;
   text-align: left;
   margin: 0;
-  /* margin-bottom: 30px; */
 }
 
 .two-columns__paragraph:not(:last-child) {
@@ -156,6 +155,7 @@
   font-weight: 600;
   text-align: center;
   width: 60%;
+  margin: 0;
   margin-bottom: 20px;
   z-index: 1;
 }
@@ -187,7 +187,6 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-
   margin-top: 60px;
 }
 
@@ -326,7 +325,7 @@
   margin: 18px 0;
 }
 
-.footer_column_content_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
