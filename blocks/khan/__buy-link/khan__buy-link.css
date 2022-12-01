@@ -7,10 +7,9 @@
   padding: 0;
   margin: 0;
   margin-left: 48px;
-  opacity: 0.5;
-  transition: opacity 0.4s linear;
 }
 
 .khan__buy-link:hover {
-  opacity: 1;
+  opacity: 0.5;
+  transition: opacity 0.5s linear;
 }
